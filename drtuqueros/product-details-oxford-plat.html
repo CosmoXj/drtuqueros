@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platform Oxfords - Dr.Tuquero's</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sj4.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="Untitled_design2.png" width="125px" alt="Dr. Tuquero's"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Boots</a></li>
+                    <li><a href="sale.html">Sale</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="account.html">Account</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+            </nav>
+            <img src="menu.png" class="menu-icon" onclick="menutoggle()" alt="Menu">
+        </div>
+    </div>
+
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="plats3.png" width="100%" id="ProductImg" alt="Platform Oxfords">
+            </div>
+            <div class="col-2">
+                <p>Home / Shoes</p>
+                <h1>Platform Oxfords</h1>
+                <h4>$39.99</h4>
+                <select>
+                    <option>Select Size</option>
+                    <option>US 7</option>
+                    <option>US 8</option>
+                </select>
+                <input type="number" value="1" min="1">
+                <button type="button" class="btn add-to-cart-btn">Add To Cart</button>
+                <h3>Product Details</h3>
+                <br>
+                <p>The best of both worlds: the classic Oxford silhouette with a chunky platform sole for added height and attitude.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Related Products</h2>
+            <a href="products.html"><p>View More</p></a>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a href="product-details-oxford.html">
+                    <img src="oxs.png" alt="Classic Oxfords">
+                    <h4>Classic Oxfords</h4>
+                </a>
+                <p>$35.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details-platform.html">
+                    <img src="bootplats.png" alt="Platform Boots">
+                    <h4>Platform Boots</h4>
+                </a>
+                <p>$49.99</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <p>Copyright 2026 - Dr.Tuquero's Alternative Footwear</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
